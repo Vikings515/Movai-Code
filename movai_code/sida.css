@@ -1,0 +1,144 @@
+body{
+    color:black;
+    background-color: #a8a2a2;
+    font-family: oblique;
+     
+}
+h1,h2{
+    color: black;
+}    
+h1{
+    font-size: 32pt;
+    margin-bottom: 10px;
+    
+}
+.nom{
+    color:black;
+    margin: 0;
+    padding: 5px;
+   
+
+}
+h2 {
+    color: #fcbf49;
+    font-size: 26pt;
+    left: 150px;
+    border-color: #f1c264;
+}
+h1, h2, h3, strong, b {
+    font-weight: 800;
+}
+h3{
+    color: rgb(68, 68, 19);
+    font-size: 35px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #33F9FF;
+}
+.image {
+    max-width: 100%;
+    margin: 0;
+    padding: 5px;
+
+}
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: white;
+}     
+nav {
+    background-color: #3e3e3d;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 10px;
+}
+table th, table td {
+    padding: 8px;
+}
+input,textarea {
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+textarea {
+    resize: none;
+}
+::placeholder {
+    transition: .4s;
+}
+:focus::placeholder {
+    color: transparent;
+}
+
+footer {
+    display: flex;
+}
+footer div {
+    margin-left: auto;
+    display: flex;
+}
+footer div a {
+    margin-left: 15px;
+}
+
+header {
+    background-color: rgba(0,0,0,.25);
+    padding: 15px;
+    
+    text-align: right;
+}
+
+nav .list {
+    position: relative;
+}
+nav .list div ul {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: #fefefe;
+    border-radius: .25em;
+}
+nav .list div ul li a {
+    display: block;
+    color: rgba(0, 0, 0, .6);
+    padding: 5px;
+}
+nav .list div ul li a:hover {
+    color: black;
+}
+nav .list div {
+    padding-top: 10px;
+    position: absolute;
+    display: none;
+}
+nav .list.active div{
+    display: block;
+}
+.button {
+    background-color: #FCFF33;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
